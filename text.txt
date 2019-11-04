@@ -1,0 +1,63 @@
+Bagian I (Nomor 3)
+a. Suami dari Rias Gremory
+Query : suami(X, riasgremory).
+X = ihsan? ;
+
+b. Paman dari Lil Tude
+Query : keponakan(liltude, X).
+X = bowo ? ;
+
+X = mametrojab ? ;
+
+X = arden
+
+c. Menantu dari Juri Sutantri
+Query : mertua(jurisutantri, X).
+X = ihsan ? ;
+
+X = audy
+
+yes
+
+d. Nenek dari ipul
+Query : cucu(ipul, X), wanita(X).
+X = jurisutantri ? ;
+
+X = emily ? ;
+
+
+e. Cucu dari On Lutfi
+Query : cucu(X, omlutfi).
+X = ipul ? ;
+
+
+f. Ipar dari Ihsan (ipar : saudara kandung dari suami/istri)
+Query : menikah(ihsan,X), saudara(X, Y).
+X = riasgremory? ;
+
+Y = arden? ;
+
+g. Sepupu dari Ipul
+Query : sepupu(X, ipul).
+X = liltude ? ;
+
+
+h. Wanita yang merupakan anak tunggal
+Query : wanita(X), \+(saudara(X,_)).
+X = jeremy ? ;
+
+X = jurisutantri ? ;
+
+X = emily ? ;
+
+X = audy
+
+i. Pria yang belum menikah
+Query : pria(X), \+(menikah(X,_)).
+X = mametrojab ;
+
+X = bowo ;
+
+X = liltude ;
+
+X = ipul
