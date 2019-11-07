@@ -1,8 +1,8 @@
-/*
-Nama  : Muhammad Rizki Fonna
-NIM   : 13516001
-Kelas : 01
-*/
+
+
+
+
+
 
 #include <stdio.h>
 #include <stdlib.h>
